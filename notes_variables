@@ -1,1 +1,13 @@
-The == operator compares the value or equality of two objects, whereas the Python is operator checks whether two variables point to the same object in memory.
+1] The == operator compares the value or equality of two objects, whereas the Python is operator checks whether two variables point to the same object in memory.
+2] format()
+
+first_name = "ada"
+last_name = "lovelace"
+full_name = f"{first_name} {last_name}"
+print(full_name)
+
+# To insert a variable’s value into a string, place the letter f immediately before the opening quotation mark
+# These strings are called f-strings. The f is for format, because Python formats the string by replacing the name of any variable in braces with its value.
+
+3] Python can look for extra whitespace on the right and left sides of a string. To ensure that no whitespace exists at the right end of a string, use
+the strip() method.
